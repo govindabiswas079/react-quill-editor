@@ -7,6 +7,7 @@ import FormatBoldRoundedIcon from '@mui/icons-material/FormatBoldRounded';
 import FormatUnderlinedRoundedIcon from '@mui/icons-material/FormatUnderlinedRounded';
 import StrikethroughSRoundedIcon from '@mui/icons-material/StrikethroughSRounded';
 import CodeRoundedIcon from '@mui/icons-material/CodeRounded';
+import CodeOffRoundedIcon from '@mui/icons-material/CodeOffRounded';
 import AddPhotoAlternateRoundedIcon from '@mui/icons-material/AddPhotoAlternateRounded';
 import VideoLibraryRoundedIcon from '@mui/icons-material/VideoLibraryRounded';
 import InsertLinkRoundedIcon from '@mui/icons-material/InsertLinkRounded';
@@ -133,7 +134,7 @@ export const modules = {
 };
 
 // Formats objects for setting up the Quill editor
-export const formats = ["header", "font", "size", "bold", "italic", "underline", "align", "strike", "script", "blockquote", "background", "list", "bullet", "indent", "link", "image", "color", "code-block"];
+export const formats = ["header", "font", "size", "bold", "italic", "underline", "align", "strike", "script", "blockquote", "background", "list", "bullet", "indent", "link", "image", "color", "code", "code-block"];
 
 // Quill Toolbar component
 export const QuillToolbar = () => {
@@ -155,6 +156,7 @@ export const QuillToolbar = () => {
     icons.image = null; // for custome align button
     icons.video = null; // for custome align button
     icons['code-block'] = null; // for custome align button
+    icons.code = null; // for custome align button
 
     return (
         <div id="toolbar" style={{ borderBottom: '1px solid rgba(145, 158, 171, 0.2)', borderRightWidth: 0, borderLeftWidth: 0, borderTopWidth: 0, }}>
@@ -183,10 +185,18 @@ export const QuillToolbar = () => {
                 </select>
             </span>
             <span className="ql-formats">
-                <button className="ql-bold" ><FormatBoldRoundedIcon /></button>
-                <button className="ql-italic"><FormatItalicRoundedIcon /> </button>
-                <button className="ql-underline"><FormatUnderlinedRoundedIcon /></button>
-                <button className="ql-strike"><StrikethroughSRoundedIcon /></button>
+                <button className="ql-bold" >
+                    <FormatBoldRoundedIcon />
+                </button>
+                <button className="ql-italic">
+                    <FormatItalicRoundedIcon />
+                </button>
+                <button className="ql-underline">
+                    <FormatUnderlinedRoundedIcon />
+                </button>
+                <button className="ql-strike">
+                    <StrikethroughSRoundedIcon />
+                </button>
             </span>
 
             <span className="ql-formats">
@@ -247,6 +257,9 @@ export const QuillToolbar = () => {
             <span className="ql-formats">
                 {/* <button className="ql-formula" /> */}
                 <button className="ql-code-block">
+                    <CodeOffRoundedIcon />
+                </button>
+                <button className="ql-code">
                     <CodeRoundedIcon />
                 </button>
                 {/* <button className="ql-clean" /> */}

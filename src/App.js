@@ -170,8 +170,7 @@ const App = () => {
       .catch((error) => {
         console.log(error);
       });
-
-  }, [])
+  }, []);
 
   return (
     <Fragment>
@@ -212,7 +211,6 @@ export default App // "https://storage.googleapis.com/node-bucket-841e6.appspot.
 
 
 /*
-
 const onChangeFile = (e) => {
     var new_zip = new JSZip();
     let folderName = "";

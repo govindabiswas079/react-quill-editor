@@ -11,6 +11,8 @@ import MyEditor from './MyEditor';
 import JSZip from 'jszip';
 import axios from 'axios';
 
+import { ButtonBase } from '@mui/material';
+
 const App = () => {
   const quillRef = useRef()
   const theme = useTheme()
@@ -203,7 +205,7 @@ const App = () => {
         {/* <img src={value}  /> */}
         <Button onClick={() => readZipFile()}>Download a Zip</Button>
       </Container>
-    </Fragment>
+    </Fragment >
   )
 }
 

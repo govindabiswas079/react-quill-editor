@@ -15,11 +15,14 @@ const ImageToText = () => {
     //     })
     // }, []);
 
-    console.log(items.map((value, _) => ({
-        name: value?.name,
-        createAt: new Date().toISOString(),
-        updateAt: new Date().toISOString()
-    })))
+     // console.log(JSON.stringify(
+     //     items.map((value, _) => ({
+     //         name: value?.name,
+     //         description: null,
+     //         createdAt: new Date().toISOString(),
+     //         updatedAt: new Date().toISOString()
+     //     }))
+     // ))
 
     return (
         <div>ImageToText</div>
@@ -28,6 +31,43 @@ const ImageToText = () => {
 
 export default ImageToText;
 
+// db.getCollection('users').insert(
+//     {
+//         "Users": [{
+//             "id": 1,
+//             "name": "abc"
+//         },
+//         {
+//             "id": 2,
+//             "name": "pqr"
+//          )
+//         ]
+//      }
+// )
+
+
+// db.getCollection('users').insertMany(
+//     [{
+//         "Users": [{
+//               "id": 1,
+//                "name": "abc"
+//           },
+//           {
+//             "id": 2,
+//              "name": "pqr"
+//          )]
+//      },
+//      {
+//         "Users": [{
+//               "id": 3,
+//                "name": "abc"
+//           },
+//           {
+//             "id": 4,
+//              "name": "pqr"
+//          )]
+//      }]
+// )
 
 const items = [
     {

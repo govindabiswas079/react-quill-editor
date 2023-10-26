@@ -130,7 +130,7 @@ export const modules = {
     },
     clipboard: {
         matchVisual: false,
-    }
+    },
 };
 
 // Formats objects for setting up the Quill editor

@@ -15,14 +15,14 @@ const ImageToText = () => {
     //     })
     // }, []);
 
-     // console.log(JSON.stringify(
-     //     items.map((value, _) => ({
-     //         name: value?.name,
-     //         description: null,
-     //         createdAt: new Date().toISOString(),
-     //         updatedAt: new Date().toISOString()
-     //     }))
-     // ))
+    // console.log(JSON.stringify(
+    //     items.map((value, _) => ({
+    //         name: value?.name,
+    //         description: null,
+    //         createdAt: new Date().toISOString(),
+    //         updatedAt: new Date().toISOString()
+    //     }))
+    // ))
 
     return (
         <div>ImageToText</div>

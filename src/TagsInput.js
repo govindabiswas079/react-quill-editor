@@ -4,11 +4,10 @@ import { useState } from 'react';
 
 const TagsInput = ({ value, setValue }) => {
     const [anchorEl, setAnchorEl] = React.useState(null);
-    const [selected, setSelected] = useState(["javascript"]);
+    const [selected, setSelected] = useState([]);
     const handleClick = (event) => {
         setAnchorEl(event?.currentTarget);
     };
-
 
     const onChange = (event) => {
 
@@ -80,7 +79,7 @@ const TagsInput = ({ value, setValue }) => {
                                             placeholder='Type'
                                         />
                                     </Box>
-                                    <Box sx={{ display: "flex", flexDirection: "column", height: 200, overflow: "auto", }}>
+                                    <Box onScroll={(event) => { console.log('event', (event.target.scrollHeight - event.target.scrollTop === event.target.clientHeight)) }} style={{ display: "flex", flexDirection: "column", height: 200, overflow: "auto", }}>
                                         <Box sx={{ display: "flex", alignItems: 'center', gap: '10px' }}>
                                             <Checkbox disableRipple indeterminate={selected?.length > 0 && selected?.length < itemstgs?.length} checked={itemstgs?.length > 0 && selected?.length === itemstgs?.length} onChange={handleSelectAllClick} />
                                             <Typography variant='h6' sx={{ fontSize: "14px" }}>

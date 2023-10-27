@@ -191,12 +191,6 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.564Z"
     },
     {
-        "name": "r",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.564Z",
-        "updatedAt": "2023-10-26T07:02:40.564Z"
-    },
-    {
         "name": "reactjs",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.564Z",
@@ -228,12 +222,6 @@ const itemstgs = [
     },
     {
         "name": "json",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.564Z",
-        "updatedAt": "2023-10-26T07:02:40.564Z"
-    },
-    {
-        "name": "python-3.x",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.564Z",
         "updatedAt": "2023-10-26T07:02:40.564Z"
@@ -276,12 +264,6 @@ const itemstgs = [
     },
     {
         "name": "objective-c",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.564Z",
-        "updatedAt": "2023-10-26T07:02:40.564Z"
-    },
-    {
-        "name": "pandas",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.564Z",
         "updatedAt": "2023-10-26T07:02:40.564Z"
@@ -341,12 +323,6 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.564Z"
     },
     {
-        "name": "vba",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.564Z",
-        "updatedAt": "2023-10-26T07:02:40.564Z"
-    },
-    {
         "name": "spring",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.564Z",
@@ -396,12 +372,6 @@ const itemstgs = [
     },
     {
         "name": "flutter",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.564Z",
-        "updatedAt": "2023-10-26T07:02:40.564Z"
-    },
-    {
-        "name": "wpf",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.564Z",
         "updatedAt": "2023-10-26T07:02:40.564Z"
@@ -473,12 +443,6 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.564Z"
     },
     {
-        "name": "multithreading",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.564Z",
-        "updatedAt": "2023-10-26T07:02:40.564Z"
-    },
-    {
         "name": "azure",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.564Z",
@@ -539,12 +503,6 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.565Z"
     },
     {
-        "name": "numpy",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
         "name": "scala",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.565Z",
@@ -575,31 +533,7 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.565Z"
     },
     {
-        "name": "performance",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
-        "name": "selenium",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
-        "name": "winforms",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
         "name": "loops",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
-        "name": "python-2.7",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.565Z",
         "updatedAt": "2023-10-26T07:02:40.565Z"
@@ -612,12 +546,6 @@ const itemstgs = [
     },
     {
         "name": "express",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
-        "name": "hibernate",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.565Z",
         "updatedAt": "2023-10-26T07:02:40.565Z"
@@ -695,18 +623,6 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.565Z"
     },
     {
-        "name": "qt",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
-        "name": "facebook",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
         "name": "unit-testing",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.565Z",
@@ -714,12 +630,6 @@ const itemstgs = [
     },
     {
         "name": "tensorflow",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
-        "name": "apache-spark",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.565Z",
         "updatedAt": "2023-10-26T07:02:40.565Z"
@@ -761,31 +671,7 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.565Z"
     },
     {
-        "name": "unity-game-engine",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
         "name": "authentication",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
-        "name": "symfony",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
-        "name": ".htaccess",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
-        "name": "opencv",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.565Z",
         "updatedAt": "2023-10-26T07:02:40.565Z"
@@ -797,19 +683,7 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.565Z"
     },
     {
-        "name": "google-chrome",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
         "name": "for-loop",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
-        "name": "matplotlib",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.565Z",
         "updatedAt": "2023-10-26T07:02:40.565Z"
@@ -822,12 +696,6 @@ const itemstgs = [
     },
     {
         "name": "datetime",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
-        "name": "codeigniter",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.565Z",
         "updatedAt": "2023-10-26T07:02:40.565Z"
@@ -864,12 +732,6 @@ const itemstgs = [
     },
     {
         "name": "object",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
-        "name": "uitableview",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.565Z",
         "updatedAt": "2023-10-26T07:02:40.565Z"
@@ -923,31 +785,7 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.565Z"
     },
     {
-        "name": "spring-mvc",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
-        "name": "elasticsearch",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
-        "name": "kubernetes",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
         "name": "ms-access",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
-        "name": "parsing",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.565Z",
         "updatedAt": "2023-10-26T07:02:40.565Z"
@@ -971,12 +809,6 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.565Z"
     },
     {
-        "name": "c++11",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
         "name": "pointers",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.565Z",
@@ -989,25 +821,7 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.565Z"
     },
     {
-        "name": "ruby-on-rails-3",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
         "name": "machine-learning",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
-        "name": "selenium-webdriver",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
-        "name": "ggplot2",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.565Z",
         "updatedAt": "2023-10-26T07:02:40.565Z"
@@ -1043,12 +857,6 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.565Z"
     },
     {
-        "name": "sql-server-2008",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
         "name": "google-apps-script",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.565Z",
@@ -1073,28 +881,10 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.565Z"
     },
     {
-        "name": "jsp",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.565Z",
-        "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
         "name": "debugging",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.565Z",
         "updatedAt": "2023-10-26T07:02:40.565Z"
-    },
-    {
-        "name": "jpa",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.566Z",
-        "updatedAt": "2023-10-26T07:02:40.566Z"
-    },
-    {
-        "name": "tkinter",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.566Z",
-        "updatedAt": "2023-10-26T07:02:40.566Z"
     },
     {
         "name": "delphi",
@@ -1116,18 +906,6 @@ const itemstgs = [
     },
     {
         "name": "pdf",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.566Z",
-        "updatedAt": "2023-10-26T07:02:40.566Z"
-    },
-    {
-        "name": "haskell",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.566Z",
-        "updatedAt": "2023-10-26T07:02:40.566Z"
-    },
-    {
-        "name": "wcf",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.566Z",
         "updatedAt": "2023-10-26T07:02:40.566Z"
@@ -1170,6 +948,12 @@ const itemstgs = [
     },
     {
         "name": "npm",
+        "description": null,
+        "createdAt": "2023-10-26T07:02:40.566Z",
+        "updatedAt": "2023-10-26T07:02:40.566Z"
+    },
+    {
+        "name": "npx",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.566Z",
         "updatedAt": "2023-10-26T07:02:40.566Z"
@@ -1247,12 +1031,6 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.566Z"
     },
     {
-        "name": "hadoop",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.566Z",
-        "updatedAt": "2023-10-26T07:02:40.566Z"
-    },
-    {
         "name": ".net-core",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.566Z",
@@ -1266,12 +1044,6 @@ const itemstgs = [
     },
     {
         "name": "math",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.566Z",
-        "updatedAt": "2023-10-26T07:02:40.566Z"
-    },
-    {
-        "name": "laravel-5",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.566Z",
         "updatedAt": "2023-10-26T07:02:40.566Z"
@@ -1343,19 +1115,7 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.566Z"
     },
     {
-        "name": "winapi",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.566Z",
-        "updatedAt": "2023-10-26T07:02:40.566Z"
-    },
-    {
         "name": "inheritance",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.566Z",
-        "updatedAt": "2023-10-26T07:02:40.566Z"
-    },
-    {
-        "name": "keras",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.566Z",
         "updatedAt": "2023-10-26T07:02:40.566Z"
@@ -1433,12 +1193,6 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.566Z"
     },
     {
-        "name": "pyspark",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.566Z",
-        "updatedAt": "2023-10-26T07:02:40.566Z"
-    },
-    {
         "name": "d3.js",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.566Z",
@@ -1458,12 +1212,6 @@ const itemstgs = [
     },
     {
         "name": "internet-explorer",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.566Z",
-        "updatedAt": "2023-10-26T07:02:40.566Z"
-    },
-    {
-        "name": "iis",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.566Z",
         "updatedAt": "2023-10-26T07:02:40.566Z"
@@ -2009,12 +1757,6 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.567Z"
     },
     {
-        "name": "spring-security",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.567Z",
-        "updatedAt": "2023-10-26T07:02:40.567Z"
-    },
-    {
         "name": "file-upload",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.567Z",
@@ -2502,12 +2244,6 @@ const itemstgs = [
     },
     {
         "name": "parameters",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.567Z",
-        "updatedAt": "2023-10-26T07:02:40.567Z"
-    },
-    {
-        "name": "spring-data-jpa",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.567Z",
         "updatedAt": "2023-10-26T07:02:40.567Z"
@@ -4451,12 +4187,6 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.569Z"
     },
     {
-        "name": "spring-data",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.569Z",
-        "updatedAt": "2023-10-26T07:02:40.569Z"
-    },
-    {
         "name": "grid",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.569Z",
@@ -6101,12 +5831,6 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.571Z"
     },
     {
-        "name": "spring-batch",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.571Z",
-        "updatedAt": "2023-10-26T07:02:40.571Z"
-    },
-    {
         "name": "blackberry",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.571Z",
@@ -6390,18 +6114,6 @@ const itemstgs = [
     },
     {
         "name": "rstudio",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.572Z",
-        "updatedAt": "2023-10-26T07:02:40.572Z"
-    },
-    {
-        "name": "spring-integration",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.572Z",
-        "updatedAt": "2023-10-26T07:02:40.572Z"
-    },
-    {
-        "name": "cygwin",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.572Z",
         "updatedAt": "2023-10-26T07:02:40.572Z"
@@ -7997,12 +7709,6 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.573Z"
     },
     {
-        "name": "spring-webflux",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.573Z",
-        "updatedAt": "2023-10-26T07:02:40.573Z"
-    },
-    {
         "name": "xcode6",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.573Z",
@@ -8934,6 +8640,12 @@ const itemstgs = [
     },
     {
         "name": "npm-install",
+        "description": null,
+        "createdAt": "2023-10-26T07:02:40.575Z",
+        "updatedAt": "2023-10-26T07:02:40.575Z"
+    },
+    {
+        "name": "pnpm",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.575Z",
         "updatedAt": "2023-10-26T07:02:40.575Z"
@@ -10020,12 +9732,6 @@ const itemstgs = [
     },
     {
         "name": "product",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.576Z",
-        "updatedAt": "2023-10-26T07:02:40.576Z"
-    },
-    {
-        "name": "spring-cloud",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.576Z",
         "updatedAt": "2023-10-26T07:02:40.576Z"
@@ -11424,12 +11130,6 @@ const itemstgs = [
     },
     {
         "name": "laravel-5.3",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.577Z",
-        "updatedAt": "2023-10-26T07:02:40.577Z"
-    },
-    {
-        "name": "spring-kafka",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.577Z",
         "updatedAt": "2023-10-26T07:02:40.577Z"
@@ -13367,12 +13067,6 @@ const itemstgs = [
         "updatedAt": "2023-10-26T07:02:40.578Z"
     },
     {
-        "name": "spring-data-mongodb",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.578Z",
-        "updatedAt": "2023-10-26T07:02:40.578Z"
-    },
-    {
         "name": "interrupt",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.579Z",
@@ -13794,12 +13488,6 @@ const itemstgs = [
     },
     {
         "name": "repeat",
-        "description": null,
-        "createdAt": "2023-10-26T07:02:40.579Z",
-        "updatedAt": "2023-10-26T07:02:40.579Z"
-    },
-    {
-        "name": "spring-security-oauth2",
         "description": null,
         "createdAt": "2023-10-26T07:02:40.579Z",
         "updatedAt": "2023-10-26T07:02:40.579Z"

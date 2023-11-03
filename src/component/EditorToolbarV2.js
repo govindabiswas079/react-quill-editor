@@ -47,6 +47,7 @@ const CustomRedo = () => (
     </svg>
 );
 
+
 // Undo and redo functions for Custom Toolbar
 function undoChange() { this.quill.history.undo(); }
 function redoChange() { this.quill.history.redo(); }
@@ -98,6 +99,37 @@ function insertLine() {
 
 }
 
+var bindings = {
+    tab: {
+        key: 9,
+        handler: function () {
+            // Handle tab
+        }
+    },
+    custom: {
+        key: 'B',
+        shiftKey: true,
+        handler: function (range, context) {
+            // Handle shift+b
+            console.log(range,  context)
+        }
+    },
+    list: {
+        key: 'backspace',
+        format: ['list'],
+        handler: function (range, context) {
+            if (context.offset === 0) {
+                // When backspace on the first character of a list,
+                // remove the list instead
+                this.quill.format('list', false, Quill.sources.USER);
+            } else {
+                // Otherwise propagate to Quill's default
+                return true;
+            }
+        }
+    }
+};
+
 export const modules = {
     toolbar: {
         container: "#toolbar",
@@ -131,6 +163,9 @@ export const modules = {
     clipboard: {
         matchVisual: false,
     },
+    // keyboard: {
+    //     bindings: bindings
+    // }
 };
 
 // Formats objects for setting up the Quill editor
